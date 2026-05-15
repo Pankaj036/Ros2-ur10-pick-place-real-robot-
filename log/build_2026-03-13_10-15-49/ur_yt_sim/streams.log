@@ -1,0 +1,132 @@
+[0.010s] Invoking command in '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble /usr/bin/cmake /home/user/ur_ws/src/ur_yt_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.078s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.129s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.187s] -- Detecting CXX compile features
+[0.188s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.324s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.343s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.344s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.370s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.373s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.378s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.420s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.494s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.512s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.543s] -- Looking for pthread.h
+[0.595s] -- Looking for pthread.h - found
+[0.595s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.646s] -- Found Threads: TRUE  
+[0.675s] -- Found trajectory_msgs: 4.9.1 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.692s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.708s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.792s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.819s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.827s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.842s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.921s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.940s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.940s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.024s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.042s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.056s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.073s] -- Found linkattacher_msgs: 0.0.0 (/home/user/ur_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[1.077s] -- Found ros2_linkattacher: 0.0.0 (/home/user/ur_ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake)
+[1.079s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.132s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.132s] -- Configured cppcheck include dirs: 
+[1.132s] -- Configured cppcheck exclude dirs and/or files: 
+[1.133s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.133s] -- Added test 'lint_cmake' to check CMake code style
+[1.134s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.136s] -- Added test 'uncrustify' to check C / C++ code style
+[1.136s] -- Configured uncrustify additional arguments: 
+[1.137s] -- Added test 'xmllint' to check XML markup files
+[1.137s] -- Configuring done
+[1.159s] -- Generating done
+[1.167s] -- Build files have been written to: /home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim
+[1.177s] Invoked command in '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble /usr/bin/cmake /home/user/ur_ws/src/ur_yt_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim
+[1.178s] Invoking command in '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim -- -j22 -l22
+[1.217s] [ 16%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[1.220s] [ 33%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[1.220s] [ 50%] [32mBuilding CXX object CMakeFiles/test_ik_collision_obj.dir/src/test_ik_collision_obj.cpp.o[0m
+[5.655s] [ 66%] [32m[1mLinking CXX executable test_ik[0m
+[5.742s] [ 83%] [32m[1mLinking CXX executable test_ik_collision_obj[0m
+[5.838s] [ 83%] Built target test_ik
+[5.918s] [ 83%] Built target test_ik_collision_obj
+[6.288s] [100%] [32m[1mLinking CXX executable pick_place[0m
+[6.516s] [100%] Built target pick_place
+[6.525s] Invoked command in '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim -- -j22 -l22
+[6.531s] Invoking command in '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim
+[6.537s] -- Install configuration: ""
+[6.537s] -- Execute custom install script
+[6.538s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera.launch.py
+[6.543s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper.launch.py
+[6.550s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper_moveit.launch.py
+[6.556s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_moveit.launch.py
+[6.560s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera.launch.py
+[6.566s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera_gripper.launch.py
+[6.571s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/camera.xacro
+[6.577s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper.ros2_control.xacro
+[6.582s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper_macro.xacro
+[6.588s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10.ros2_control.xacro
+[6.593s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera.urdf.xacro
+[6.599s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera_gripper.urdf.xacro
+[6.604s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_macro.xacro
+[6.610s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/config/initial_positions.yaml
+[6.615s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers.yaml
+[6.621s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers_gripper.yaml
+[6.628s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.dae
+[6.632s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.png
+[6.638s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.stl
+[6.643s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/xtion_pro_live.png
+[6.649s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/worlds/world1.world
+[6.653s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/worlds/world2.world
+[6.658s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/rviz/view_ur10_camera.rviz
+[6.663s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.config
+[6.669s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.sdf
+[6.673s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.dae
+[6.678s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.stl
+[6.684s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.config
+[6.689s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.sdf
+[6.694s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/meshes/mini_stacking_box2.dae
+[6.699s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.config
+[6.706s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.sdf
+[6.711s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.config
+[6.717s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.sdf
+[6.721s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement1
+[6.725s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik
+[6.731s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik_collision_obj
+[6.736s] -- Up-to-date symlink: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik
+[6.736s] -- Up-to-date symlink: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik_collision_obj
+[6.736s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//pick_place
+[6.742s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ament_index/resource_index/package_run_dependencies/ur_yt_sim
+[6.749s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ament_index/resource_index/parent_prefix_path/ur_yt_sim
+[6.753s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.sh
+[6.758s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.dsv
+[6.766s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/path.sh
+[6.771s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/path.dsv
+[6.777s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.bash
+[6.783s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.sh
+[6.789s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.zsh
+[6.794s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.dsv
+[6.799s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/package.dsv
+[6.806s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ament_index/resource_index/packages/ur_yt_sim
+[6.812s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig.cmake
+[6.820s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig-version.cmake
+[6.825s] -- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/package.xml
+[6.833s] Invoked command in '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim

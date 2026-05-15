@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+  OAK-D Camera TF definitions for the UR10 + Robotiq 3F gripper system.
+  Included by ur10_camera_3f_gripper.urdf.xacro (real hardware only).
+
+  Camera 1 – env_camera  : OAK-D Pro AF  (USB DeviceId 14442C1041A6D1D200)
+    Fixed stand mount viewing the robot workspace.
+    Parent    : world
+    Position  : 1.2 m in front of robot (+X), 0.0 m side (Y), 0.8 m height (Z)
+    Pitch     : 0.73 rad ≈ 42° nose-down  (optical axis aimed at workspace origin)
+    Yaw       : π rad  (camera faces −X to look back toward the robot)
+    Topics    : /env_camera/rgb/*, /env_camera/stereo/*, /env_camera/points
+
+  Camera 2 – wrist_camera : OAK-D Pro Wide  (USB DeviceId 14442C10715AD4D200)
+    Eye-in-hand camera beside the Robotiq 3F gripper.
+    Parent    : ft300_output_link
+    Offset    : +0.150 m in X  (15 cm bracket sandwiched between FT300 and gripper)
+                 0.000 m in Z  (at the FT300 output / gripper input face)
+    Pitch     : −π/2 rad  → camera optical axis aligns with tool0 +Z (approach/finger direction)
+    Topics    : /wrist_camera/rgb/*, /wrist_camera/stereo/*, /wrist_camera/points
+
+  NOTE: i_publish_tf_from_calibration is false (default) in depthai_ros_driver,
+  so TF for all camera frames is sourced from this URDF via robot_state_publisher.
+  The driver uses the frame names automatically based on its node name.
+
+  Adjust cam_pos_* and cam_*  after physically measuring the actual camera mounts.
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find depthai_descriptions)/urdf/include/depthai_macro.urdf.xacro"/>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       Environment Camera — OAK-D Pro AF
+       Fixed stand, facing the robot workspace.
+       Generates frames:
+         env_camera_camera_frame        (base / mount frame)
+         env_camera_rgb_camera_frame    (RGB sensor)
+         env_camera_rgb_camera_optical_frame
+         env_camera_left_camera_frame   (left stereo)
+         env_camera_right_camera_frame  (right stereo)
+         env_camera_imu_frame           (BNO086 IMU)
+       ═══════════════════════════════════════════════════════════════ -->
+  <xacro:depthai_camera
+    camera_name="env_camera"
+    camera_model="OAK-D-PRO"
+    parent="world"
+    base_frame="env_camera_camera_frame"
+    cam_pos_x="1.2"
+    cam_pos_y="0.0"
+    cam_pos_z="0.8"
+    cam_roll="0.0"
+    cam_pitch="0.73"
+    cam_yaw="3.14159265"/>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       Wrist Camera — OAK-D Pro Wide
+       Eye-in-hand mount beside the Robotiq 3F gripper.
+       Parent: tool0 (UR10 tool flange).
+       Camera body sits at +X of the gripper and looks in the +Z
+       (approach / finger-tip) direction of tool0.
+       Generates frames:
+         wrist_camera_camera_frame
+         wrist_camera_rgb_camera_frame
+         wrist_camera_rgb_camera_optical_frame
+         wrist_camera_left_camera_frame
+         wrist_camera_right_camera_frame
+       ═══════════════════════════════════════════════════════════════ -->
+  <xacro:depthai_camera
+    camera_name="wrist_camera"
+    camera_model="OAK-D-PRO-W"
+    parent="ft300_output_link"
+    base_frame="wrist_camera_camera_frame"
+    cam_pos_x="0.15"
+    cam_pos_y="0.0"
+    cam_pos_z="0.0"
+    cam_roll="0.0"
+    cam_pitch="-1.5708"
+    cam_yaw="0.0"/>
+
+</robot>

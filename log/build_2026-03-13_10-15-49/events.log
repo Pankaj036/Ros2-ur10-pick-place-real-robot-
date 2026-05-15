@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000281] (ur_yt_sim) JobQueued: {'identifier': 'ur_yt_sim', 'dependencies': OrderedDict()}
+[0.000300] (ur_yt_sim) JobStarted: {'identifier': 'ur_yt_sim'}
+[0.009072] (ur_yt_sim) JobProgress: {'identifier': 'ur_yt_sim', 'progress': 'cmake'}
+[0.009592] (ur_yt_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ur_ws/src/ur_yt_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim'], 'cwd': '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ur_ws/install/ros2_linkattacher/lib:/home/user/ur_ws/install/robotiq_controllers/lib:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/user/ur_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ur_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DOBOT_TYPE', 'cr5'), ('MANAGERPID', '2144'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2295'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c36034f0ccfd005d5bc985a669b3903d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:477'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/miniconda3/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-NUC14RVS-B:@/tmp/.ICE-unix/2295,unix/user-NUC14RVS-B:/tmp/.ICE-unix/2295'), ('INVOCATION_ID', '3c261799d39e47099ee8f4885827f610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '872cf629-3210-4f49-8070-49dbde2ac969'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VG4ZL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ur_ws/install/ur10_camera_moveit_config:/home/user/ur_ws/install/ur10_camera_gripper_moveit_config:/home/user/ur_ws/install/ur_yt_sim:/home/user/ur_ws/install/ur_simulation_gazebo:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ros2_linkattacher:/home/user/ur_ws/install/robotiq_description:/home/user/ur_ws/install/robotiq_controllers:/home/user/ur_ws/install/robotiq_3f_gripper_visualization:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces:/home/user/ur_ws/install/linkattacher_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c36034f0ccfd005d5bc985a669b3903d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ur_ws/install/my-test-package/lib/python3.10/site-packages:/home/user/ur_ws/build/robotiq_3f_gripper_ros2_control:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/home/user/ur_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ur_ws/install/ur10_camera_moveit_config:/home/user/ur_ws/install/ur10_camera_gripper_moveit_config:/home/user/ur_ws/install/ur_yt_sim:/home/user/ur_ws/install/ur_simulation_gazebo:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ros2_linkattacher:/home/user/ur_ws/install/robotiq_description:/home/user/ur_ws/install/robotiq_controllers:/home/user/ur_ws/install/robotiq_3f_gripper_visualization:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces:/home/user/ur_ws/install/linkattacher_msgs:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble')]), 'shell': False}
+[0.046973] (ur_yt_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.078072] (ur_yt_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.082430] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099745] (-) TimerEvent: {}
+[0.123729] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.128859] (ur_yt_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.129010] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.129240] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.130936] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.181556] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.187567] (ur_yt_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.187680] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.187926] (ur_yt_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.189343] (ur_yt_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199807] (-) TimerEvent: {}
+[0.285697] (ur_yt_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299909] (-) TimerEvent: {}
+[0.324253] (ur_yt_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.343307] (ur_yt_sim) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.344401] (ur_yt_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.370091] (ur_yt_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.373168] (ur_yt_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.378093] (ur_yt_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.385012] (ur_yt_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.393864] (ur_yt_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400033] (-) TimerEvent: {}
+[0.418548] (ur_yt_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.420306] (ur_yt_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.493865] (ur_yt_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.500122] (-) TimerEvent: {}
+[0.511767] (ur_yt_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.537879] (ur_yt_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.543270] (ur_yt_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.595264] (ur_yt_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.595511] (ur_yt_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600208] (-) TimerEvent: {}
+[0.644984] (ur_yt_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.646183] (ur_yt_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.675077] (ur_yt_sim) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.9.1 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[0.692252] (ur_yt_sim) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.700292] (-) TimerEvent: {}
+[0.707792] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.792466] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.800364] (-) TimerEvent: {}
+[0.819609] (ur_yt_sim) StdoutLine: {'line': b'-- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.827432] (ur_yt_sim) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.842000] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.900497] (-) TimerEvent: {}
+[0.921172] (ur_yt_sim) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.940279] (ur_yt_sim) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.940442] (ur_yt_sim) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000599] (-) TimerEvent: {}
+[1.023755] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.042523] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.056105] (ur_yt_sim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.072736] (ur_yt_sim) StdoutLine: {'line': b'-- Found linkattacher_msgs: 0.0.0 (/home/user/ur_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)\n'}
+[1.077541] (ur_yt_sim) StdoutLine: {'line': b'-- Found ros2_linkattacher: 0.0.0 (/home/user/ur_ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake)\n'}
+[1.078838] (ur_yt_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.100660] (-) TimerEvent: {}
+[1.132240] (ur_yt_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.132476] (ur_yt_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.132570] (ur_yt_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.132874] (ur_yt_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.133663] (ur_yt_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.134114] (ur_yt_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.136357] (ur_yt_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.136503] (ur_yt_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.136866] (ur_yt_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.137635] (ur_yt_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.159211] (ur_yt_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.166762] (ur_yt_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim\n'}
+[1.176533] (ur_yt_sim) CommandEnded: {'returncode': 0}
+[1.177751] (ur_yt_sim) JobProgress: {'identifier': 'ur_yt_sim', 'progress': 'build'}
+[1.177801] (ur_yt_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim', '--', '-j22', '-l22'], 'cwd': '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ur_ws/install/ros2_linkattacher/lib:/home/user/ur_ws/install/robotiq_controllers/lib:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/user/ur_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ur_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DOBOT_TYPE', 'cr5'), ('MANAGERPID', '2144'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2295'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c36034f0ccfd005d5bc985a669b3903d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:477'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/miniconda3/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-NUC14RVS-B:@/tmp/.ICE-unix/2295,unix/user-NUC14RVS-B:/tmp/.ICE-unix/2295'), ('INVOCATION_ID', '3c261799d39e47099ee8f4885827f610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '872cf629-3210-4f49-8070-49dbde2ac969'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VG4ZL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ur_ws/install/ur10_camera_moveit_config:/home/user/ur_ws/install/ur10_camera_gripper_moveit_config:/home/user/ur_ws/install/ur_yt_sim:/home/user/ur_ws/install/ur_simulation_gazebo:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ros2_linkattacher:/home/user/ur_ws/install/robotiq_description:/home/user/ur_ws/install/robotiq_controllers:/home/user/ur_ws/install/robotiq_3f_gripper_visualization:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces:/home/user/ur_ws/install/linkattacher_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c36034f0ccfd005d5bc985a669b3903d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ur_ws/install/my-test-package/lib/python3.10/site-packages:/home/user/ur_ws/build/robotiq_3f_gripper_ros2_control:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/home/user/ur_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ur_ws/install/ur10_camera_moveit_config:/home/user/ur_ws/install/ur10_camera_gripper_moveit_config:/home/user/ur_ws/install/ur_yt_sim:/home/user/ur_ws/install/ur_simulation_gazebo:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ros2_linkattacher:/home/user/ur_ws/install/robotiq_description:/home/user/ur_ws/install/robotiq_controllers:/home/user/ur_ws/install/robotiq_3f_gripper_visualization:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces:/home/user/ur_ws/install/linkattacher_msgs:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble')]), 'shell': False}
+[1.200792] (-) TimerEvent: {}
+[1.216886] (ur_yt_sim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o\x1b[0m\n'}
+[1.219822] (ur_yt_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o\x1b[0m\n'}
+[1.220603] (ur_yt_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_ik_collision_obj.dir/src/test_ik_collision_obj.cpp.o\x1b[0m\n'}
+[1.300940] (-) TimerEvent: {}
+[1.401290] (-) TimerEvent: {}
+[1.501700] (-) TimerEvent: {}
+[1.602104] (-) TimerEvent: {}
+[1.702482] (-) TimerEvent: {}
+[1.802896] (-) TimerEvent: {}
+[1.903277] (-) TimerEvent: {}
+[2.003676] (-) TimerEvent: {}
+[2.104063] (-) TimerEvent: {}
+[2.204479] (-) TimerEvent: {}
+[2.304983] (-) TimerEvent: {}
+[2.405389] (-) TimerEvent: {}
+[2.505847] (-) TimerEvent: {}
+[2.606300] (-) TimerEvent: {}
+[2.706697] (-) TimerEvent: {}
+[2.807076] (-) TimerEvent: {}
+[2.907395] (-) TimerEvent: {}
+[3.007709] (-) TimerEvent: {}
+[3.108003] (-) TimerEvent: {}
+[3.208320] (-) TimerEvent: {}
+[3.308634] (-) TimerEvent: {}
+[3.408936] (-) TimerEvent: {}
+[3.509257] (-) TimerEvent: {}
+[3.609575] (-) TimerEvent: {}
+[3.709905] (-) TimerEvent: {}
+[3.810223] (-) TimerEvent: {}
+[3.910537] (-) TimerEvent: {}
+[4.010869] (-) TimerEvent: {}
+[4.111164] (-) TimerEvent: {}
+[4.211571] (-) TimerEvent: {}
+[4.312012] (-) TimerEvent: {}
+[4.412415] (-) TimerEvent: {}
+[4.512769] (-) TimerEvent: {}
+[4.613148] (-) TimerEvent: {}
+[4.713567] (-) TimerEvent: {}
+[4.813967] (-) TimerEvent: {}
+[4.914456] (-) TimerEvent: {}
+[5.014959] (-) TimerEvent: {}
+[5.115476] (-) TimerEvent: {}
+[5.215983] (-) TimerEvent: {}
+[5.316512] (-) TimerEvent: {}
+[5.416952] (-) TimerEvent: {}
+[5.517289] (-) TimerEvent: {}
+[5.617659] (-) TimerEvent: {}
+[5.654666] (ur_yt_sim) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_ik\x1b[0m\n'}
+[5.717780] (-) TimerEvent: {}
+[5.742429] (ur_yt_sim) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable test_ik_collision_obj\x1b[0m\n'}
+[5.817930] (-) TimerEvent: {}
+[5.837962] (ur_yt_sim) StdoutLine: {'line': b'[ 83%] Built target test_ik\n'}
+[5.917720] (ur_yt_sim) StdoutLine: {'line': b'[ 83%] Built target test_ik_collision_obj\n'}
+[5.917969] (-) TimerEvent: {}
+[6.018256] (-) TimerEvent: {}
+[6.118735] (-) TimerEvent: {}
+[6.219042] (-) TimerEvent: {}
+[6.288377] (ur_yt_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pick_place\x1b[0m\n'}
+[6.319147] (-) TimerEvent: {}
+[6.419454] (-) TimerEvent: {}
+[6.516261] (ur_yt_sim) StdoutLine: {'line': b'[100%] Built target pick_place\n'}
+[6.519536] (-) TimerEvent: {}
+[6.525671] (ur_yt_sim) CommandEnded: {'returncode': 0}
+[6.526151] (ur_yt_sim) JobProgress: {'identifier': 'ur_yt_sim', 'progress': 'install'}
+[6.531264] (ur_yt_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim'], 'cwd': '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ur_ws/install/ros2_linkattacher/lib:/home/user/ur_ws/install/robotiq_controllers/lib:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces/lib:/home/user/ur_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ur_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DOBOT_TYPE', 'cr5'), ('MANAGERPID', '2144'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2295'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c36034f0ccfd005d5bc985a669b3903d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('JOURNAL_STREAM', '8:477'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/miniconda3/bin:/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-NUC14RVS-B:@/tmp/.ICE-unix/2295,unix/user-NUC14RVS-B:/tmp/.ICE-unix/2295'), ('INVOCATION_ID', '3c261799d39e47099ee8f4885827f610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '872cf629-3210-4f49-8070-49dbde2ac969'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VG4ZL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ur_ws/install/ur10_camera_moveit_config:/home/user/ur_ws/install/ur10_camera_gripper_moveit_config:/home/user/ur_ws/install/ur_yt_sim:/home/user/ur_ws/install/ur_simulation_gazebo:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ros2_linkattacher:/home/user/ur_ws/install/robotiq_description:/home/user/ur_ws/install/robotiq_controllers:/home/user/ur_ws/install/robotiq_3f_gripper_visualization:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces:/home/user/ur_ws/install/linkattacher_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ur_ws/src/ur_yt_sim/build/ur_yt_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c36034f0ccfd005d5bc985a669b3903d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ur_ws/install/my-test-package/lib/python3.10/site-packages:/home/user/ur_ws/build/robotiq_3f_gripper_ros2_control:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control/lib/python3.10/site-packages:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces/local/lib/python3.10/dist-packages:/home/user/ur_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ur_ws/install/ur10_camera_moveit_config:/home/user/ur_ws/install/ur10_camera_gripper_moveit_config:/home/user/ur_ws/install/ur_yt_sim:/home/user/ur_ws/install/ur_simulation_gazebo:/home/user/ur_ws/install/ur_description:/home/user/ur_ws/install/ros2_linkattacher:/home/user/ur_ws/install/robotiq_description:/home/user/ur_ws/install/robotiq_controllers:/home/user/ur_ws/install/robotiq_3f_gripper_visualization:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_interfaces:/home/user/ur_ws/install/linkattacher_msgs:/home/user/ur_ws/install/robotiq_3f_gripper_ros2_control:/opt/ros/humble')]), 'shell': False}
+[6.537388] (ur_yt_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.537701] (ur_yt_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.538071] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera.launch.py\n'}
+[6.543643] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper.launch.py\n'}
+[6.549985] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper_moveit.launch.py\n'}
+[6.556181] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_moveit.launch.py\n'}
+[6.560381] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera.launch.py\n'}
+[6.565937] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera_gripper.launch.py\n'}
+[6.571202] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/camera.xacro\n'}
+[6.576892] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper.ros2_control.xacro\n'}
+[6.582288] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper_macro.xacro\n'}
+[6.588596] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10.ros2_control.xacro\n'}
+[6.593270] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera.urdf.xacro\n'}
+[6.598713] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera_gripper.urdf.xacro\n'}
+[6.604296] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_macro.xacro\n'}
+[6.610234] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/config/initial_positions.yaml\n'}
+[6.614760] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers.yaml\n'}
+[6.619639] (-) TimerEvent: {}
+[6.620927] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers_gripper.yaml\n'}
+[6.628399] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.dae\n'}
+[6.632358] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.png\n'}
+[6.638401] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.stl\n'}
+[6.643543] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/xtion_pro_live.png\n'}
+[6.648804] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/worlds/world1.world\n'}
+[6.653392] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/worlds/world2.world\n'}
+[6.657961] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/rviz/view_ur10_camera.rviz\n'}
+[6.663415] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.config\n'}
+[6.669336] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.sdf\n'}
+[6.673596] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.dae\n'}
+[6.678175] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.stl\n'}
+[6.684752] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.config\n'}
+[6.689729] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.sdf\n'}
+[6.694686] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/meshes/mini_stacking_box2.dae\n'}
+[6.699039] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.config\n'}
+[6.705861] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.sdf\n'}
+[6.711547] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.config\n'}
+[6.716935] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.sdf\n'}
+[6.719707] (-) TimerEvent: {}
+[6.721086] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement1\n'}
+[6.725283] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik\n'}
+[6.730845] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik_collision_obj\n'}
+[6.736413] (ur_yt_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik\n'}
+[6.736589] (ur_yt_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//test_ik_collision_obj\n'}
+[6.736653] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/lib/ur_yt_sim//pick_place\n'}
+[6.742291] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ament_index/resource_index/package_run_dependencies/ur_yt_sim\n'}
+[6.748955] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ament_index/resource_index/parent_prefix_path/ur_yt_sim\n'}
+[6.753393] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.sh\n'}
+[6.758229] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.dsv\n'}
+[6.765816] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/path.sh\n'}
+[6.771514] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/environment/path.dsv\n'}
+[6.776906] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.bash\n'}
+[6.782725] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.sh\n'}
+[6.789171] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.zsh\n'}
+[6.794256] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/local_setup.dsv\n'}
+[6.799418] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/package.dsv\n'}
+[6.805765] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ament_index/resource_index/packages/ur_yt_sim\n'}
+[6.812420] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig.cmake\n'}
+[6.819710] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig-version.cmake\n'}
+[6.819852] (-) TimerEvent: {}
+[6.825495] (ur_yt_sim) StdoutLine: {'line': b'-- Symlinking: /home/user/ur_ws/src/ur_yt_sim/install/ur_yt_sim/share/ur_yt_sim/package.xml\n'}
+[6.833138] (ur_yt_sim) CommandEnded: {'returncode': 0}
+[6.843205] (ur_yt_sim) JobEnded: {'identifier': 'ur_yt_sim', 'rc': 0}
+[6.843764] (-) EventReactorShutdown: {}

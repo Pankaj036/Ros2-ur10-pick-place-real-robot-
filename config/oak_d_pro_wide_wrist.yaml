@@ -1,0 +1,25 @@
+# OAK-D Pro Wide — Wrist Camera
+# MxID : 14442C10715AD4D200  (USB port 3.6)
+# Mount: 15 cm bracket at ft300_output_link, optical axis = gripper Z
+# Topics: /wrist_camera/rgb/image_raw
+#         /wrist_camera/stereo/image_raw
+
+/wrist_camera:
+  ros__parameters:
+    camera:
+      i_mx_id: "14442C10715AD4D200"
+      i_nn_type: none
+      i_pipeline_type: RGBD
+      i_enable_imu: false
+      i_enable_ir: true
+
+    rgb:
+      i_resolution: '720'
+      i_fps: 30.0
+      i_publish_topic: true
+
+    stereo:
+      i_subpixel: true
+      i_lr_check: true
+      i_fps: 30.0
+      i_publish_topic: true
